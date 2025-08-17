@@ -26,3 +26,82 @@ The system allows you to **add, update, delete, classify, search, and display bo
 
 ## 📂 File Structure  
 
+```
+LibraryManagement/
+│── library.cpp    # Main C++ source file
+│── README.md      # Project documentation
+```
+
+---
+
+## ▶️ How to Run  
+
+1. **Clone the repository**  
+   ```bash
+   git clone https://github.com/your-username/library-management.git
+   cd library-management
+   ```
+
+2. **Compile the program**  
+   ```bash
+   g++ library.cpp -o library
+   ```
+
+3. **Run the program**  
+   ```bash
+   ./library
+   ```
+
+---
+
+## 📋 Sample Menu  
+
+```
+Library Management System
+1. Add a Book
+2. Update a Book
+3. Classify by Price
+4. Delete a Book
+5. Display All Books
+6. Search a Book
+7. Exit
+```
+
+---
+
+## ✨ Example  
+
+**Input:**  
+```
+Enter Book ID: 101
+Enter Book Name: C++ Primer
+Enter Book Topic: Programming
+Enter Book Price: 499
+Enter Author Name: Stanley B. Lippman
+```
+
+**Output:**  
+```
+Book added successfully.
+
+Book Details:
+ID: 101
+Name: C++ Primer
+Topic: Programming
+Price: 499
+Author: Stanley B. Lippman
+```
+
+---
+
+## 📌 Future Enhancements  
+
+- Save and load book data from files (persistent storage)  
+- Advanced search by name/author/topic  
+- GUI-based version with Qt or C++/CLI  
+
+---
+
+## 🏷️ License  
+
+This project is **free to use** for learning and academic purposes.  
